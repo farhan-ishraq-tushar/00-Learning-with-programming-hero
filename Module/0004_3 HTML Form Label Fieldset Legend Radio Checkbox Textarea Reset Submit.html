@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+
+        }
+    </style>
+    <link rel="stylesheet" href="/Styles/nav.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/0004_1 HTML5 Vs HTML, Audio, Video, Youtube Video, Embed Iframe.html">Video & Audio</a></li>
+                <li><a href="/0004_2 Explore HTML5 Nav, Main, Header, Footer, Section, Article, Time.html">Blogs</a></li>
+                <li><a href="/0004_3 HTML Form Label Fieldset Legend Radio Checkbox Textarea Reset Submit.html">Form</a></li>
+                <li><a href="/0004_4 HTML Table Table, Tr, Th, Td, Caption, Colspan, Thead, Tbody, Tfoot.html">Table</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Fill up the form</h2>
+            <form>
+                <label for="name">
+                    Your name:
+                    <input id="name" type="name" placeholder="Your name">
+                </label>
+                <label for="email">
+                    Your email: <input id="email" 
+                    placeholder="Your email" type="email">
+                </label>
+                
+                <label for="phone">Your phone: 
+                    <input id="phone" placeholder="Your phone"
+                     type="phone">   
+                </label>
+
+                <fieldset>
+                    <legend>Pick one pitha</legend>
+                    <label for="chitoy">
+                        <input type="radio" name="pitha" id="chitoy">Chitoy
+                    </label>
+                    <label for="vapa">
+                        <input type="radio" name="pitha" id="vapa">Vapa
+                    </label>
+                    <label for="puri">
+                        <input type="radio" name="pitha" id="puri">Puri
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Pick onre or more vorta</legend>
+                    <label for="sorisha">
+                        <input type="checkbox" name="vorta" id="sorisha">Sorisha
+                    </label>
+                    <label for="shutki">
+                        <input type="checkbox" name="vorta" id="shutki">Sutki
+                    </label>
+                    <label for="morich">
+                        <input type="checkbox" name="vorta" id="morich">Morich
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Special isntruction</legend>
+                   <textarea name="" id="" cols="30" rows="2"></textarea>
+                </fieldset>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>

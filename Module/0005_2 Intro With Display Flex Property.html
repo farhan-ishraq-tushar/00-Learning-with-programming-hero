@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dsplay Flex</title>
+    <style>
+        .parent{
+            padding: 25px;
+            background-color: aquamarine;
+            display: flex;
+            gap: 30px;
+            /* justify-content: space-around; */
+            justify-content: space-evenly;
+            /* justify-content: start; */
+            /* justify-content: center; */
+            /* justify-content: space-between; */
+            height: 350px;
+            align-items: center;
+            flex-direction: row;
+            /* flex-direction: column-reverse; */
+            /* flex-direction: row-reverse; */
+            flex-wrap: wrap;
+        }
+        .child{
+            border: 2px solid red;
+            background-color: antiquewhite;
+            padding: 20px;
+            font-size: 28px;
+            margin: 10px 0;
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+    <section class="parent">
+        <div class="child">child-1</div>
+        <div class="child">child-2</div>
+        <div class="child">child-3</div>
+        <div class="child">child-4</div>
+        <div class="child">child-5</div>
+        <div class="child">child-6</div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus reprehenderit natus est numquam ducimus incidunt. Provident numquam, soluta velit tenetur accusantium odit maxime quasi hic corporis magnam earum, alias cum?
+        </p>
+    </section>
+</body>
+</html>

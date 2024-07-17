@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed selectors</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        p{
+            color: red;
+        }
+        #fifth, li{
+            font-weight: bold;
+        }
+        .holud,.yellow, li{
+            background-color: purple;
+            color: white;
+        }
+        .bold{
+            font-weight: bold;
+        }
+        input[type="password"]{
+            color: rgb(13, 193, 91);
+        }
+        span{
+            background-color: red;
+            color: aliceblue;
+        }
+        .blog{
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <h3>Explore mixed selectors</h3>
+    <p>My first line CSS</p>
+    <p class="yellow bold">My second line CSS</p>
+    <p>My third line CSS</p>
+    <p class="yellow">My fourth line CSS</p>
+    <p id="fifth">My fifth line CSS</p>
+    <p class="holud">My sixth line CSS</p>
+    <p>My seventh line CSS</p>
+    <ol>
+        <li>Element selector</li>
+        <li>ID selector</li>
+        <li>Class selector</li>
+    </ol>
+    <br>
+    <form action="">
+        <input type="text">
+        <br>
+        <input type="password" name="" id="">
+    </form>
+
+    <h4>"Span" tag is used to apply CSS on a portion</h4>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis <span>odio vero</span> fugiat cupiditate dolorum magni, velit praesentium sed consequatur! Quae et modi similique, est veniam doloribus quidem reiciendis vel tempora.
+    </p>
+    <div class="blog">
+        <h3>My blog</h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae fugiat nobis, labore assumenda ducimus corrupti temporibus eveniet aut hic consequuntur quos veniam quod. Mollitia, eum eligendi. Autem exercitationem voluptate quae nemo, quaerat esse ipsam magnam explicabo consequuntur facere ea doloribus?
+        </p>
+    </div>
+</body>
+</html>

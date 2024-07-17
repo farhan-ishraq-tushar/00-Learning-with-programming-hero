@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Querry</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 20px;
+        }
+        .sheldon{
+            border: 2px solid red;
+            padding: 10px;
+        }
+        .sheldon img{
+            width: 100%;
+        }
+        /* smaller device */
+        @media screen and (max-width:576px) {
+            .container{
+                grid-template-columns: repeat(1, 1fr);
+                background-color: aquamarine;
+            }
+        }
+
+        /* medium device */
+        @media screen and (min-width: 576px) and (max-width: 992px) {
+            .container{
+                grid-template-columns: repeat(2, 1fr);
+                background-color: red;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- .container>.sheldon*12>img[src="sheldon.webp"]+h3{sheldon - $}+p>{age: \$}+p>lorem20^btn{Buy Now} -->
+    <div class="container">
+        <div class="sheldon">
+            <img src="sheldon.webp" alt="">
+            <h3>sheldon - 1</h3>
+            <p>
+                age: $
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel consectetur expedita quasi adipisci ullam tempore non nesciunt voluptates. Nihil, ullam?</p>
+                <button>Buy Now</button>
+            </p>
+        </div>
+        <div class="sheldon">
+            <img src="sheldon.webp" alt="">
+            <h3>sheldon - 2</h3>
+            <p>
+                age: $
+                <p>Quos fugiat officiis, cupiditate delectus dicta quisquam officia, rem obcaecati culpa mollitia architecto vero ut ab nisi quidem aperiam. Asperiores.</p>
+                <button>Buy Now</button>
+            </p>
+        </div>
+        <div class="sheldon">
+            <img src="sheldon.webp" alt="">
+            <h3>sheldon - 3</h3>
+            <p>
+                age: $
+                <p>Vel ex dolore aperiam voluptate mollitia magni tenetur animi eum in optio, exercitationem iste laudantium sapiente velit doloribus soluta eos!</p>
+                <button>Buy Now</button>
+            </p>
+        </div>
+        <div class="sheldon">
+            <img src="sheldon.webp" alt="">
+            <h3>sheldon - 4</h3>
+            <p>
+                age: $
+                <p>Libero quibusdam nam, commodi consequatur sint, eum officiis molestias delectus hic explicabo soluta reiciendis et omnis nihil laboriosam maxime quis?</p>
+                <button>Buy Now</button>
+            </p>
+        </div>
+        <div class="sheldon">
+            <img src="sheldon.webp" alt="">
+            <h3>sheldon - 5</h3>
+            <p>
+                age: $
+                <p>Minima nemo quae eos animi molestiae ex sunt ullam aliquam commodi molestias magnam distinctio officiis quia, nam sed asperiores. Quos?</p>
+                <button>Buy Now</button>
+            </p>
+        </div>
+        <div class="sheldon">
+            <img src="sheldon.webp" alt="">
+            <h3>sheldon - 6</h3>
+            <p>
+                age: $
+                <p>Tempora minima, dolore necessitatibus quibusdam, commodi aspernatur voluptates enim rem incidunt sapiente ducimus qui impedit assumenda. Libero quisquam similique inventore?</p>
+                <button>Buy Now</button>
+            </p>
+        </div>
+        <div class="sheldon">
+            <img src="sheldon.webp" alt="">
+            <h3>sheldon - 7</h3>
+            <p>
+                age: $
+                <p>Doloribus, blanditiis at facere nihil fugit minima officiis ab ea quibusdam soluta perspiciatis eos porro consectetur nam, repellendus, dicta cumque?</p>
+                <button>Buy Now</button>
+            </p>
+        </div>
+        <div class="sheldon">
+            <img src="sheldon.webp" alt="">
+            <h3>sheldon - 8</h3>
+            <p>
+                age: $
+                <p>Repellendus tempore eum sed ab pariatur ratione quis voluptatum, sint, perferendis dolor optio quidem, necessitatibus numquam nostrum minima repellat ipsa?</p>
+                <button>Buy Now</button>
+            </p>
+        </div>
+        <div class="sheldon">
+            <img src="sheldon.webp" alt="">
+            <h3>sheldon - 9</h3>
+            <p>
+                age: $
+                <p>Saepe sequi aspernatur suscipit error tempore, eveniet ullam dolorem delectus voluptatum, consectetur animi earum sit nulla. Minus voluptas laudantium fuga.</p>
+                <button>Buy Now</button>
+            </p>
+        </div>
+        <div class="sheldon">
+            <img src="sheldon.webp" alt="">
+            <h3>sheldon - 10</h3>
+            <p>
+                age: $
+                <p>Asperiores eaque tempore velit odit culpa illo esse nesciunt harum enim quisquam, placeat fugiat dicta aliquam voluptatum est dolores deserunt.</p>
+                <button>Buy Now</button>
+            </p>
+        </div>
+        <div class="sheldon">
+            <img src="sheldon.webp" alt="">
+            <h3>sheldon - 11</h3>
+            <p>
+                age: $
+                <p>Cum in perferendis debitis praesentium beatae, mollitia quam voluptas illo, nam eum unde tenetur, enim odit amet voluptates voluptatibus repellendus.</p>
+                <button>Buy Now</button>
+            </p>
+        </div>
+        <div class="sheldon">
+            <img src="sheldon.webp" alt="">
+            <h3>sheldon - 12</h3>
+            <p>
+                age: $
+                <p>Quidem nostrum a reprehenderit consequatur ab quos expedita atque debitis, fugit dolore exercitationem, iste animi repellat necessitatibus doloribus eligendi soluta!</p>
+                <button>Buy Now</button>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

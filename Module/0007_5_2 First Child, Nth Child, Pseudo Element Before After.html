@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position</title>
+    <style>
+        li{
+            font-family: sans-serif;
+        }
+        div{
+           
+            height: 150px;
+            width: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: silver;
+            font-family: sans-serif;
+        }
+
+        .position_container{
+            /* height: 500px;
+            width: 500px; */
+            /* position: fixed; */
+            border: 2px solid red;
+        }
+
+        .relative{
+            position: relative;
+            left: 50px;
+            top: -30px;
+        }
+        .absolute{
+            position: absolute;
+            top: 300px;
+            left: 0px;
+        }
+        .dummy{
+            border: 2px solid salmon;
+            height: 150px;
+            width: 200px;
+        }
+        .fixed{
+            position: fixed;
+            top: 20px;
+            /* right: 10px; */
+        }
+        .sticky{
+            top: 50px;
+            /* left: 500px; */
+            position: sticky;
+            right: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h3>CSS Positions</h3>
+    <ol>
+        <!-- Flow related -->
+        <li>Static</li>
+        <li>Relative: moves items according to current position & will not leave the current spot</li>
+        <li>Absolute: loses its own positions and moves based on the root. If parent is availabe then moves according to the parent</li>
+        <!-- Scroll related -->
+        <li>Fixed</li> 
+        <li>Sticky</li>
+    </ol>
+
+    <div class="position_container">
+        <div class="static" style="background-color: aquamarine;">
+            <h1>Static</h1> 
+         </div>
+     
+         <div class="relative" style="background-color: purple;">
+             <h1>Relative</h1>
+         </div>
+     
+         <div class="absolute" style="background-color: green;">
+             <h1>Absolute</h1>
+         </div>
+     
+     
+     
+         <div class="fixed" style="background-color: blue;">
+            <h1>Fixed</h1>
+         </div>
+
+
+         
+    </div>
+    <div class="sticky" style="background-color: rgb(142, 131, 116);">
+        <h1>Sticky</h1>
+     </div>
+    <div class="dummy">dummy1</div>
+         <div class="dummy">dummy2</div>
+         <div class="dummy">dummy3</div>
+         <div class="dummy">dummy4</div>
+         <div class="dummy">dummy5</div>
+         <div class="dummy">dummy6</div>
+         <div class="dummy">dummy7</div>
+         <div class="dummy">dummy8</div>
+         <div class="dummy">dummy9</div>
+         <div class="dummy">dummy10</div>
+         <div class="dummy">dummy11</div>
+         <div class="dummy">dummy12</div>
+         <div class="dummy">dummy13</div>
+         <div class="dummy">dummy14</div>
+         <div class="dummy">dummy15</div>
+    
+</body>
+</html>
